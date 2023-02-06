@@ -14,3 +14,18 @@
     background-color: blue;
     color: white;
 }
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+marquee {
+    font-size: 20px;
+    background-color: yellow;
+}
+
+h3 {
+    width: 100%;
+    text-align: center;
+}
