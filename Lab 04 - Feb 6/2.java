@@ -5,8 +5,9 @@ import java.util.*;
 class Solution{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your mark: ");
         int mark = sc.nextInt();
-        System.out.print("Your grade is:");
+        System.out.print("Your grade is: ");
         if(mark >= 90){
             System.out.print("O");
         }
