@@ -1,12 +1,12 @@
-// Find the no. of occurrence of each element in an user entered list of nos.
-
 import java.util.*;
 
 class Solution{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the no of elements: ");
         int n = sc.nextInt();
         int[] arr = new int[n];
+        System.out.print("Enter the elements: ");
         for(int i = 0; i < n; i++)
             arr[i] = sc.nextInt();
         int[] count = new int[n];
@@ -22,7 +22,7 @@ class Solution{
         }
         for(int i = 0; i < n; i++){
             if(arr[i] != -1)
-                System.out.println(arr[i] + " " + count[i]);
+                System.out.println("No of "+arr[i] + ": " + count[i]);
         }
     }
 };

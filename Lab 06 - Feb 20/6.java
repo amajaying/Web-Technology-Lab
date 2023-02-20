@@ -1,11 +1,10 @@
-// Find sum of each diagonal (left & right) elements separately of a user entered 3X 3 matrixes in Java.
-
 import java.util.*;
 
 class Solution{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         int[][] arr = new int[3][3];
+        System.out.print("Enter the 9 elements of matrix: ");
         for(int i = 0; i < 3; i++){
             for(int j = 0; j < 3; j++){
                 arr[i][j] = sc.nextInt();
