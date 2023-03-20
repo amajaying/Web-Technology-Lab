@@ -46,9 +46,9 @@ class Number{
         arr[minIndex] = temp;
     }
     void display(){
-        System.out.println("The numbers after swapping are: ");
+        System.out.print("The numbers after swapping are: ");
         for(int i = 0; i < n; i++){
-            System.out.println(arr[i]);
+            System.out.print(arr[i]+" ");
         }
     }
 }
