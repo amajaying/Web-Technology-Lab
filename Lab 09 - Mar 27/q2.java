@@ -1,9 +1,3 @@
-// Write a program to perform following operations on user entered strings –
-// i) Change the case of the string
-// ii) Reverse the string
-// iii) Compare two strings
-// iv) Insert one string into another string
-
 import java.util.Scanner;
 
 public class q2 {
