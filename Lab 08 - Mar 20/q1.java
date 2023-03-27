@@ -1,5 +1,3 @@
-// Write a program in Java to define a class Number with appropriate data members and member functions to input n number of integers and swap the biggestand smallest elements. Use member functions read(), swap() and display()
-
 import java.util.*;
 
 class Solution{
@@ -13,7 +11,7 @@ class Solution{
         obj.display();
     };
 };
-
+ 
 
 class Number{
     int n;

@@ -14,7 +14,7 @@ class Solution{
 class A{
     int aa;
     A(int a){
-        a = a;
+        aa = a;
     }
     void showA(){
         

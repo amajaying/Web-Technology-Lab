@@ -1,7 +1,7 @@
 // Program to print the corresponding grade for the given mark using if else statement in Java
 
 import java.util.*;
-
+ 
 class Solution{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);

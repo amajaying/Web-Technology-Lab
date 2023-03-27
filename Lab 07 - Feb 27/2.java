@@ -6,7 +6,7 @@ class Solution
 {
     public static void main(String[] args)
     {
-        WoodBox wb = new WoodBox(10, 20, 30, 40);
+        WoodBox wb = new WoodBox(10, 20, 30, 40); 
         System.out.println("\nLength = " + wb.length);
         System.out.println("Width = " + wb.width);
         System.out.println("Height = " + wb.height);

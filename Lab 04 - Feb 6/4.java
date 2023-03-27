@@ -1,7 +1,7 @@
 // check if user entered number is palindrome or not.
 
 import java.util.*;
-
+ 
 class Solution{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);

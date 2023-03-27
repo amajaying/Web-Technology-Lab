@@ -1,5 +1,4 @@
-package General;
-public class Employee {
+class Employee {
     protected int empid;
     private String ename;
     
