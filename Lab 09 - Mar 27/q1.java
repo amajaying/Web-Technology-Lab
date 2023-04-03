@@ -2,17 +2,17 @@ public class q1
 {
     public static void main(String[] args)
     {
-        WashingMachine wm = new WashingMachine();
-        wm.run();
-        wm.consume();
-        wm.checkVal();
+        WashingMachine machine = new WashingMachine();
+        machine.run();
+        machine.consume();
+        machine.checkVal();
     }
 }
 
 
 interface Motor
 {
-    int capacity = 99;
+    int capacity = 3794;
     void run();
     void consume();
 }

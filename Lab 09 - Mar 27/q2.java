@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class q2 {
@@ -23,7 +24,11 @@ public class q2 {
                 break;
             case 2:
                 System.out.println("Original string: " + str);
-                System.out.println("Reversed string: " + new StringBuilder(str).reverse().toString());
+                System.out.print("Reversed string: ");
+                for(int i=str.length()-1; i>=0; i--){
+                    System.out.print(str.charAt(i));
+                }
+                System.out.println();
                 break;
             case 3:
                 System.out.println("Original string: " + str);
